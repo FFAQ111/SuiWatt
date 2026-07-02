@@ -39,9 +39,7 @@ function App() {
             onClick={() => setView("landing")}
             className="flex items-center gap-2"
           >
-            <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-              <VoltrayMark className="size-5" />
-            </span>
+            <VoltrayMark className="size-8" />
             <span className="text-lg font-semibold tracking-tight">Voltray</span>
           </button>
 

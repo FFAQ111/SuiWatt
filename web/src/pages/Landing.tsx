@@ -75,9 +75,7 @@ export default function Landing({ onLaunch }: { onLaunch: () => void }) {
           className="pointer-events-none absolute -top-10 h-72 w-72 rounded-full bg-primary/20 blur-3xl"
         />
         <div className="relative flex flex-col items-center gap-6 duration-700 animate-in fade-in slide-in-from-bottom-3">
-          <span className="flex size-20 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-lg shadow-primary/20">
-            <VoltrayMark className="size-12" />
-          </span>
+          <VoltrayMark className="size-20 drop-shadow-lg" />
           <Badge variant="secondary" className="gap-1.5">
             Sui Overflow 2026 · DeFi &amp; Payments
           </Badge>
